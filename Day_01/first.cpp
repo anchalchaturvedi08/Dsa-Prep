@@ -3,13 +3,13 @@ using namespace std;
 
 int main() {
     cout << "Hello! there" << endl;
-    // cout << 3 + 2 << endl;
+    cout << 3 + 2 << endl;
 
-    // int a = 10;
-    // cout << "a";
+    int a = 10;
+    cout << "a";
 
-    // char c = 'a';
-    // cout << c;
+    char c = 'a';
+    cout << c;
 
     float f = 2.3;
     cout << f;
