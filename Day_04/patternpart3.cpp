@@ -157,33 +157,59 @@ int main() {
 //         cout<<endl;
 //     }
 
-    int row, col, n;
-    cout<<"Enter the number: ";
+    // int row, col, n;
+    // cout<<"Enter the number: ";
+    // cin>>n;
+    // // first half part
+    // for(row=1; row<=n; row=row+1){
+    //     // print *
+    //     for(col=1;col<=row;col=col+1)
+    //         cout<<"* ";
+    //     // space print
+    //     for(col=1;col<=2*n-2*row;col=col+1)
+    //         cout<<"  ";
+    //     // print *
+    //     for(col=1;col<=row;col=col+1)
+    //         cout<<"* ";
+    //     cout<<endl;
+    // }
+    // // second half part
+    // for(row=n-1; row>=1; row=row-1){
+    //     // print *
+    //     for(col=1;col<=row;col=col+1)
+    //         cout<<"* ";
+    //     // space print
+    //     for(col=1;col<=2*n-2*row;col=col+1)
+    //         cout<<"  ";
+    //     // print *
+    //     for(col=1;col<=row;col=col+1)
+    //         cout<<"* ";
+    //     cout<<endl;
+    // }
+
+    int n, row, col;
+    cout<<"Enter your number: ";
     cin>>n;
-    // first half part
     for(row=1; row<=n; row=row+1){
-        // print *
-        for(col=1;col<=row;col=col+1)
+        // space
+        for(col=1; col<=n-row; col=col+1){
+            cout<<" ";
+        }
+        // star
+        for(col=1; col<=row; col=col+1){
             cout<<"* ";
-        // space print
-        for(col=1;col<=2*n-2*row;col=col+1)
-            cout<<"  ";
-        // print *
-        for(col=1;col<=row;col=col+1)
-            cout<<"* ";
+        }
         cout<<endl;
     }
-    // second half part
     for(row=n-1; row>=1; row=row-1){
-        // print *
-        for(col=1;col<=row;col=col+1)
+        // space
+        for(col=1; col<=n-row; col=col+1){
+            cout<<" ";
+        }
+        // star
+        for(col=1; col<=row; col=col+1){
             cout<<"* ";
-        // space print
-        for(col=1;col<=2*n-2*row;col=col+1)
-            cout<<"  ";
-        // print *
-        for(col=1;col<=row;col=col+1)
-            cout<<"* ";
+        }
         cout<<endl;
     }
 
