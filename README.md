@@ -13,6 +13,3 @@ Welcome to my Data Structures and Algorithms (DSA) learning journey using C++. T
 3. **Advanced Topics**: Learn and implement advanced topics like dynamic programming and graph algorithms.
 4. **Consistency**: Code daily and document my progress.
 
-## ✨ Acknowledgements
-
-I would like to thank [Rohit Negi](#) for his support and guidance throughout this journey.
